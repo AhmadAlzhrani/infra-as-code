@@ -1,0 +1,35 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+.terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+#sensitive files
+*.tfvars
+*.tfvars.json
+
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+.terraform.lock.hcl
+terraform.tfstate.backup
+terraform.tfstate
+
+addition.zip
+subtraction.zip
+multiplication.zip
+division.zip
